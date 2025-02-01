@@ -1,0 +1,336 @@
+.centerFormAlignment {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+label {
+	color: white;
+}
+
+select {
+	color: white;
+}
+
+option {
+	color: white;
+	background: #191c24;
+	border-color: white;
+}
+
+table,
+.dataTables_info,
+a {
+	color: white !important;
+}
+
+input {
+	color: white;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+	color: white !important;
+	border: 1px solid white !important;
+	background-color: white !important;
+}
+
+form .form-control {
+	border: 1px solid rgba(6, 6, 6, 0.2);
+	color: #000000;
+	background: white;
+}
+
+form .form-control:focus {
+	color: #000000;
+	background: white;
+}
+
+form .list-group .list-group-item {
+	color: #12151e;
+}
+
+form .list-group .list-group-item.active {
+	color: #fff;
+}
+
+.searchable-dropdown-btn {
+	text-align: left;
+	border: 1px solid #2c2e33;
+	height: calc(2.25rem + 2px);
+	font-weight: normal;
+	font-size: 0.875rem;
+	padding: 0.625rem 0.6875rem;
+	width: 100%;
+	background-color: #2a3038;
+	border-radius: 2px;
+	color: #ffffff;
+}
+
+.searchable-dropdown-btn::after {
+	float: right;
+}
+
+.searchable-dropdown-btn:active,
+.searchable-dropdown-btn:focus,
+.searchable-dropdown-btn:hover,
+.show>.searchable-dropdown-btn {
+	background-color: #2a3038 !important;
+	color: #ffffff !important;
+	border: 1px solid #2c2e33 !important;
+}
+
+.form-control:disabled,
+.form-control[readonly] {
+	background-color: #2a3038;
+}
+
+.form-group label {
+	color: #000000 !important;
+}
+
+input:-internal-autofill-selected {
+	background-color: #2a3038 !important;
+}
+
+.css-2b097c-container>div {
+	background-color: #ffffff !important;
+	border: 1px solid rgba(6, 6, 6, 0.2) !important;
+	color: rgb(5, 5, 5) !important;
+	cursor: pointer;
+}
+
+.css-1n7v3ny-option {
+	background-color: #0078c1 !important;
+}
+
+.css-1uccc91-singleValue {
+	color: #000000 !important;
+}
+
+.customtab a {
+	color: #fff !important;
+}
+
+.card {
+	border-radius: 0.75rem;
+	box-shadow: rgba(0, 0, 0, 0.1) 0rem 0.25rem 0.375rem -0.0625rem,
+		rgba(0, 0, 0, 0.06) 0rem 0.125rem 0.25rem -0.0625rem;
+}
+
+.rounded,
+.loader-demo-box {
+	border-radius: 0.75rem !important;
+}
+
+.searchbox-style:focus {
+	color: #000000 !important;
+	background-color: #fff;
+}
+
+.searchbox-style {
+	border: 1px solid rgba(6, 6, 6, 0.2);
+	float: right;
+	width: 80%;
+	color: #000000 !important;
+	background-color: #fff;
+}
+
+.inputbox-style:focus {
+	color: #000000 !important;
+	background-color: #fff;
+}
+
+.inputbox-style {
+	border: 1px solid rgba(6, 6, 6, 0.2);
+	float: right;
+	width: 100%;
+	background-color: #fff;
+}
+
+#copy-trading-plan-card-container .card .card-header {
+	border-top-left-radius: 0.75rem;
+	border-top-right-radius: 0.75rem;
+}
+
+#copy-trading-plan-card-container .card .card-body h5 span {
+	font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+	.col-sm-12 {
+		margin: 5px 0px;
+	}
+}
+
+@media (min-width: 768px) {
+	.dashboard_row2 {
+		margin-top: 3rem;
+	}
+
+	.dashboard_row1 .card {
+		min-height: 140px;
+	}
+
+	.searchbox-style {
+		width: 50%;
+	}
+}
+
+@media (min-width: 1024px) {
+	.searchbox-style {
+		width: 25%;
+	}
+}
+
+.custom-data-table {
+	background-color: black;
+}
+
+/** Strategy css*/
+
+.strategy-cards .main-card-wrapper {
+	width: 50%;
+}
+
+.strategy-cards .strategy-text {
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.order-tradebook-user-text sub,
+.strategy-data-text sub {
+	font-size: 50%;
+}
+
+.strategy_card {
+	width: 100%;
+	overflow-x: auto;
+	min-height: 300px;
+	background-color: white;
+	color: black;
+}
+
+@media (max-width: 1024px) {
+	.strategy_card {
+		width: 100%;
+	}
+
+	.strategy_upper_heading {
+		text-align: center;
+	}
+}
+
+@media (max-width: 768px) {
+	.col-sm-12 {
+		margin: 5px 0px;
+	}
+
+	.order-tradebook-user-text,
+	.strategy-data-text {
+		font-size: 12px;
+	}
+
+	.strategy-cards .main-card-wrapper {
+		width: 100%;
+		overflow-x: auto;
+	}
+
+	.strategy-cards .strategy-text {
+		font-size: 14px;
+		font-weight: normal;
+	}
+}
+
+@media (min-width: 768px) {
+	.dashboard_row2 {
+		margin-top: 3rem;
+	}
+
+	.dashboard_row1 .card {
+		min-height: 140px;
+	}
+
+	.strategy_card_row_2 {
+		justify-content: end;
+	}
+
+	.searchbox-style {
+		width: 50%;
+	}
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+	color: #000000 !important;
+	background-color: #e1e5eb;
+	border-color: rgba(6, 6, 6, 0.2);
+}
+
+.nav-tabs .nav-link {
+	color: #0056b3 !important;
+}
+
+.nav-tabs {
+	border-bottom: 1px solid rgba(6, 6, 6, 0.2);
+}
+
+/** model border */
+.modal-content {
+	border: 1px solid rgba(6, 6, 6, 0.1) !important;
+}
+
+.css-4ljt47-MenuList {
+	color: white !important;
+}
+
+.custom-modal {
+	max-width: 800px;
+	width: 100%;
+	margin: 0 auto;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+
+
+/* Default styles for .fixed-sidebar (non-fixed on small screens) */
+.fixed-sidebar {
+	/* or any other default behavior for small screens */
+}
+
+.content-wrapper-margin {}
+
+/* Apply fixed position on large screens */
+@media (min-width: 992px) {
+
+	/* or 1200px based on your needs */
+	.fixed-sidebar {
+		position: fixed;
+		top: 0;
+		right: 0;
+		left: 0;
+		z-index: 1030;
+		/* width: 224px; */
+		height: 100vh;
+		overflow-y: auto;
+		/* Enable scrolling within the fixed sidebar */
+	}
+
+	.content-wrapper-margin {
+		margin-left: 122px;
+	}
+
+	.content-wrapper-margin2 {
+		margin-left: 2.2rem;
+	}
+}
+
+.smallbtntext {
+	font-size: 12px;
+	font-weight: 500;
+}

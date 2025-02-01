@@ -1,0 +1,190 @@
+/* body and footer and main background color*/
+.content-bg {
+    background-color: #000000 !important;
+}
+
+/* Card Colors*/
+.dark-theme-card {
+    background-color: #191c24 !important
+}
+
+.dark-card-title {
+    color: #fff !important;
+}
+
+/*All Input and lables*/
+.dark-form-control {
+    border: 1px solid #2c2e33 !important;
+    background-color: #2a3038 !important;
+    color: white !important;
+}
+
+.dark-form-control:focus {
+    background-color: #2a3038 !important;
+    color: #fff !important;
+    border: 1px solid rgba(0, 128, 0, 0.3) !important;
+}
+
+.dark-form-control::placeholder {
+    color: #6c7293 !important
+        /* #9d9fab !important;  */
+}
+
+.dark-form-control.searchbox-style {
+    color: white !important;
+}
+
+.dark-form-control:disabled {
+    opacity: 0.5 !important;
+}
+
+/* special for search style input*/
+.dark-form-control.searchbox-style:focus {
+    background-color: #2a3038 !important;
+    color: #fff !important;
+    border: 1px solid rgba(0, 128, 0, 0.3) !important;
+}
+
+.dark-text.form-label {
+    color: #fff !important;
+}
+
+.dark-text .form-group label {
+    color: #fff !important;
+}
+
+.dark-text.form-group label {
+    color: #fff !important;
+}
+
+/* react-select custom style*/
+.dark-select .react-select__control,
+.dark-select .react-select__menu {
+    background-color: #2a3038 !important;
+    border: 1px solid #2c2e33 !important;
+    color: #fff !important;
+}
+
+.dark-select .react-select__control:hover,
+.dark-select .react-select__control:focus {
+    background-color: #2a3038 !important;
+    border: 1px solid #2c2e33 !important;
+    color: #fff !important;
+}
+
+.dark-select .react-select__single-value {
+    color: #fff !important;
+}
+
+.dark-select .react-select__option:hover {
+    color: #fff !important;
+    background-color: rgba(11, 87, 185, 0.925) !important;
+
+}
+
+.dark-select .react-select__option {
+    background-color: #2a3038 !important;
+    color: #fff !important;
+
+}
+
+.dark-select .react-select__option--is-selected {
+    background-color: rgb(38, 132, 255) !important;
+}
+
+.dark-select .react-select__option--is-focused {
+    background-color: rgba(11, 87, 185, 0.925) !important;
+}
+
+
+/* page title -> top content title*/
+.dark-page-title {
+    color: #fff !important;
+}
+
+
+.dark-text {
+    color: #fff !important;
+}
+
+/* tooltip -> strategt info*/
+.dark-tooltip-inner .tooltip-inner {
+    background-color: #0090e7 !important;
+}
+
+/* Response Model*/
+.dark-modal .modal-content {
+    background-color: #191c24 !important;
+    color: white !important;
+    border: 1px solid rgba(255, 255, 255, 0.3) !important;
+}
+
+.dark-modal .modal-body {
+    background-color: #0f1015 !important;
+    color: white !important;
+}
+
+.dark-modal .modal-body .form-group label {
+    color: #fff !important;
+
+}
+
+.dark-modal .modal-header {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3) !important;
+}
+
+.dark-modal .modal-footer {
+    border-top: 1px solid rgba(255, 255, 255, 0.3) !important;
+}
+
+
+/* Navbar Profile view dropdown */
+.dark-dropdown-menu {
+    background-color: #191c24 !important;
+    color: white !important;
+}
+
+.dark-dropdown-menu .dropdown-item:hover {
+    background-color: #13151b !important;
+    color: #fff !important;
+
+}
+
+.dark-dropdown-menu .preview-subject {
+    color: #fff !important;
+}
+
+
+.dark-dropdown-menu .dropdown-divider {
+    border-top: 1px solid #2c2e33 !important;
+}
+
+
+
+/*Tabs */
+.dark-nav-tabs.nav-item.nav-link:not(.active) {
+    border-top: 0 !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+    border-color: rgba(255, 255, 255, 0.3) !important;
+    color: #fff !important;
+}
+
+.dark-nav-tabs.nav-item.nav-link.active {
+    color: #fff !important;
+    background-color: #000000 !important;
+    border-color: rgba(255, 255, 255, 0.3) !important;
+    border-bottom: 0 !important;
+}
+
+.dark-nav-tabs.nav-tabs {
+    border: 0 !important;
+}
+
+.dark-text .form-control-file {
+    color: #fff !important;
+}
+
+.white-text .form-control-file {
+    color: #000000 !important;
+}
